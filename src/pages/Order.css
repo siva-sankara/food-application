@@ -1,0 +1,24 @@
+.orderpage{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    /* margin: auto; */
+}
+.order{
+    background:  url('./5e865e09d8efa308a576b613_YumYum-p-130x130q80.png'), url('./orderbg.svg');
+    height: 80vh;
+}
+.orderbg{
+    background-image: url('./orderbg2.jpeg');
+}
+
+
+/* .orderrow3{
+    height: 100vh;
+    background-image: url('./orderbg2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */

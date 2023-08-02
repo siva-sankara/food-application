@@ -1,0 +1,25 @@
+.conatct{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+/* .sendmail{
+    position: relative;
+    min-height: 55px;
+    min-width: 55px;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #35b8be;
+    background-image: url(https://uploads-ssl.webflow.com/5e865e0…/5e865e0…_Button%20Wave.svg);
+    background-position: 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
+    font-size: 18px;
+    text-align: center;
+    
+} */

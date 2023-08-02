@@ -1,0 +1,16 @@
+.banner{
+    width: 100%;
+    min-height: 48px;
+    background-color:  #35b8be;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-image:  url('../navbar/lines.svg');  
+    color: white;
+    margin: 0;
+}
+.banner-p{
+    font-weight: 500;
+    font-size: 18px;
+    padding: 5px 3%;
+}

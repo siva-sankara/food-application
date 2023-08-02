@@ -1,0 +1,73 @@
+
+.faqmainpage{
+    width: 100%;
+    min-height: 100vh;
+}
+.fotter{
+    display: flex;
+    margin-top:20px ;
+    padding: 20px;
+    background: url('../fotter/footerbg.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: space-evenly;
+    
+}
+.fottermain{
+    background: rgb(190, 221, 226);
+    /* height: 75vh; */
+}
+.fotterlinks ul li{
+    list-style: none;
+    font-size: 17px;
+    margin: 2em;
+}
+.f-link{
+    text-decoration: none;
+    color: gray;
+}
+.f-link-1{
+    width: 300px;
+}
+.logo{
+    width: 100px;
+}
+.hrclass{
+    padding: 10px;
+}
+.socialmedialink{
+    margin: 0;
+    display: flex;
+    padding: 2em 4em;
+    justify-content: space-between;
+}
+.medialinks ul {
+    display: flex;
+    
+}
+.medialinks ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+p{
+    font-size: 20px;
+}
+.socialmedia{
+    text-decoration: none;
+    width: 30px;
+    height: 40px;
+}
+@media  screen and (max-width:700px) {
+    .fotter{
+flex-direction: column;
+background: none;
+    }
+    
+    .socialmedialink{
+        padding: 2em;
+    }
+    .medialinks ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
