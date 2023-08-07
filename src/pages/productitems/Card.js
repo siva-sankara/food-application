@@ -6,7 +6,13 @@ const Card = ({ title, img, desc, price,isVisible  }) => {
   const [cartItems, setCartItems] = useState([]);
 
   const handleAddToCartClick = (product) => {
-    setCartItems([...cartItems, product]);
+    console.log(product);
+    setCartItems(prevArray => {
+      console.log(prevArray);
+      return [
+        ...prevArray, product
+      ]
+    })
     setShowCart(true);
   };
   const handleCartClose = () => {

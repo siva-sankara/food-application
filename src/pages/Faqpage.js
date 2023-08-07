@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import { AiOutlinePlusCircle } from "react-icons/ai";
 import "./Faqpage.css";
 import Question from "./Question";
 import Fotter from "../body components/fotter/Fotter";
-import food from "../body components/fooddata";
+
 const foodlist = [
   {
     id: 1,
